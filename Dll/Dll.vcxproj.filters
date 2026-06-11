@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Features">
+      <UniqueIdentifier>{1a5f213b-b7e8-447f-a80f-1c3cb0f42e81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AdditionalLibs">
+      <UniqueIdentifier>{f4d3c721-2cff-4197-8903-d9529a40ca4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Core">
+      <UniqueIdentifier>{c1134a6b-94ce-4227-9b4e-53db6e49d2a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{c61f1671-a292-4fd5-a8ab-e470fd5435b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{5c55d918-d89b-4bb2-b2b0-70abae76b579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\UI">
+      <UniqueIdentifier>{ecda4855-b29e-47a1-895e-b132436ab471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\AddtionalLibs">
+      <UniqueIdentifier>{803feb5d-3bf5-4e03-bae6-fcc9df0ae1b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Core">
+      <UniqueIdentifier>{5bc6086e-a76a-4f3c-814d-8ef202711f9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\FeaturesVariabel">
+      <UniqueIdentifier>{a77fa245-340d-45de-bbc6-3f77400f8926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{321d055f-f215-4a01-b89c-608981e2f18f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AntiKick.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="Crosshair.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="ESPName.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="WallHack.cpp">
+      <Filter>Source Files\Features</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\buffer.c">
+      <Filter>Source Files\AdditionalLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\hde32.c">
+      <Filter>Source Files\AdditionalLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\hook.c">
+      <Filter>Source Files\AdditionalLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\trampoline.c">
+      <Filter>Source Files\AdditionalLibs</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Source Files\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="InputHelper.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Macro.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroUtils.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderHelper.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Header Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\buffer.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\hde32.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\pstdint.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\table32.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\trampoline.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\MinHook.h">
+      <Filter>Header Files\AddtionalLibs</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Offsets.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files\FeaturesVariabel</Filter>
+    </ClInclude>
+    <ClInclude Include="Macro.h">
+      <Filter>Header Files\FeaturesVariabel</Filter>
+    </ClInclude>
+    <ClInclude Include="WH.h">
+      <Filter>Header Files\FeaturesVariabel</Filter>
+    </ClInclude>
+    <ClInclude Include="Players.h">
+      <Filter>Header Files\FeaturesVariabel</Filter>
+    </ClInclude>
+    <ClInclude Include="InputHelper.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroUtils.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderHelper.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

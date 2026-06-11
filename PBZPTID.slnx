@@ -1,0 +1,13 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Folder Name="/Shared/">
+    <File Path="Shared/XOR.h" />
+  </Folder>
+  <Project Path="Dll/Dll.vcxproj" Id="f54452ae-f2d4-4dcc-b9a7-ee812db1762e" />
+  <Project Path="Injector/Injector.vcxproj" Id="befc2104-3b99-4417-8527-5575bf617c6c">
+    <BuildDependency Project="Dll/Dll.vcxproj" />
+  </Project>
+</Solution>
