@@ -15,7 +15,7 @@
 
 ## How To Use
 ###
-1. Clone Repo: git clone https://github.com/ItsMe-RiiK/PBZPTID.git
+1. Clone Repo: git clone https://github.com/RiiK26/PBZPTID.git
 2. Open .slnx file on Visual Studio
 3. Build the Solution (CTRL + Shift + B) to get the Injector.exe
 4. The injector file would be appear on /Release Folder with the DLL
